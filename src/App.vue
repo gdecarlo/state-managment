@@ -1,14 +1,15 @@
 <script setup>
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppSideBar from './components/AppSideBar.vue';
 </script>
 
 <template>
-        <header>
-            &lt;header&gt;
-        </header>
+        <AppHeader></AppHeader>
         <nav>&lt;nav&gt;</nav>
-        <aside class="sidebar-left">&lt;aside&gt;</aside>
-        <main>&lt;main&gt;</main>
-        <aside class="sidebar-right">&lt;aside&gt;</aside>
+        <AppSideBar></AppSideBar>
+        <AppMain></AppMain>
+        <AppSideBar></AppSideBar>
         <footer>&lt;footer&gt;</footer>
    
 </template>
